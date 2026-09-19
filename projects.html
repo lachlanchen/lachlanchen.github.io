@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projects · Lachlan Chen</title>
+<meta name="description" content="Open-source projects by Lachlan Chen: OpenHI, Local Knowledge Terminal, LazyEdit, L-and-N, LexiconAtlas, PaperAgent, LazyRemote, IdeasGlass and more.">
+<link rel="canonical" href="https://lachlanchen.lazying.art/projects.html">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/site.js" defer></script>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="./">Lachlan <b>Chen</b><span class="cjk">陈荣周（苗）</span></a>
+    <button class="nav-toggle" aria-label="Menu">☰</button>
+    <div class="nav-links">
+      <a href="./" data-i18n="nav.about">About</a>
+      <a href="publications.html" data-i18n="nav.publications">Publications</a>
+      <a href="projects.html" data-i18n="nav.projects">Projects</a>
+      <a href="cv.html" data-i18n="nav.cv">CV</a>
+    </div>
+    <div class="nav-tools">
+      <select class="lang-select" aria-label="Language"><option value="en">EN</option><option value="zh">中文</option></select>
+      <button class="theme-btn" aria-label="Toggle dark mode">☾</button>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <h1 class="page-title" data-i18n="proj.title_html"><b>Projects</b></h1>
+  <p class="page-desc" data-i18n="proj.desc"></p>
+
+  <div class="filters">
+    <button class="active" data-filter="all" data-i18n="proj.all">All</button>
+    <button data-filter="imaging" data-i18n="proj.imaging">Imaging & optics</button>
+    <button data-filter="ai" data-i18n="proj.ai">AI tools</button>
+    <button data-filter="learning" data-i18n="proj.learning">Learning & language</button>
+    <button data-filter="hardware" data-i18n="proj.hardware">Hardware & wearables</button>
+    <button data-filter="media" data-i18n="proj.media">Media & publishing</button>
+    <button data-filter="infra" data-i18n="proj.infra">Infrastructure</button>
+  </div>
+
+  <div class="grid">
+
+    <article class="card wide" data-cat="imaging hardware">
+      <a class="thumb" href="https://github.com/lachlanchen/OpenHI"><img src="assets/img/projects/openhi-overview.jpg" alt="OpenHI system overview: device setup, event stream, reconstruction, organoid results" loading="lazy"></a>
+      <div class="body">
+        <h3><a href="https://github.com/lachlanchen/OpenHI">OpenHI</a><span class="stars" data-repo="lachlanchen/OpenHI">★ 105</span></h3>
+        <p data-i18n="p.openhi"></p>
+        <div class="tags"><span class="tag">Event camera</span><span class="tag">Hyperspectral</span><span class="tag">Optica 2026</span><span class="tag">Python</span></div>
+        <div class="cta"><a href="https://github.com/lachlanchen/OpenHI" data-i18n="proj.repo">Repository</a><a href="https://doi.org/10.1364/OPTICA.585766" data-i18n="proj.paper">Paper</a><a href="https://lazying.art/openhi-kit.html" data-i18n="proj.live">Live</a></div>
+      </div>
+    </article>
+
+    <article class="card" data-cat="ai learning">
+      <a class="thumb" href="https://github.com/lachlanchen/LocalKnowledgeTerminal"><img src="assets/img/projects/lkt-word-card.jpg" alt="Local Knowledge Terminal word card for 'predecessor' with Japanese, Chinese and French panels" loading="lazy"></a>
+      <div class="body">
+        <h3><a href="https://github.com/lachlanchen/LocalKnowledgeTerminal">Local Knowledge Terminal</a><span class="stars" data-repo="lachlanchen/LocalKnowledgeTerminal"></span></h3>
+        <p data-i18n="p.lkt"></p>
+        <div class="tags"><span class="tag">Local LLM</span><span class="tag">Raspberry Pi</span><span class="tag">Knowledge cards</span></div>
+        <div class="cta"><a href="https://github.com/lachlanchen/LocalKnowledgeTerminal" data-i18n="proj.repo">Repository</a><a href="https://lazying.art/lkt/" data-i18n="proj.live">Live</a></div>
+      </div>
+    </article>
+
+    <article class="card" data-cat="hardware learning">
+      <a class="thumb" href="https://github.com/lachlanchen/WordsCardEink"><img src="assets/img/projects/wordscard-eink.jpg" alt="E-ink words card showing 'obstreperous' with IPA and Japanese, driven by a Raspberry Pi" loading="lazy"></a>
+      <div class="body">
+        <h3><a href="https://github.com/lachlanchen/WordsCardEink">Words Card E-ink</a><span class="stars" data-repo="lachlanchen/WordsCardEink"></span></h3>
+        <p data-i18n="p.wordscard"></p>
+        <div class="tags"><span class="tag">E-ink</span><span class="tag">Raspberry Pi</span><span class="tag">Vocabulary</span></div>
+        <div class="cta"><a href="https://github.com/lachlanchen/WordsCardEink" data-i18n="proj.repo">Repository</a><a href="https://lazying.art/eink-words-card.html" data-i18n="proj.live">Live</a></div>
+      </div>
+    </article>
+
+    <article class="card" data-cat="ai media">
+      <a class="thumb" href="https://github.com/lachlanchen/LazyEdit"><img src="assets/img/projects/lazyedit.jpg" alt="LazyEdit keyframe captions screen" loading="lazy"></a>
+      <div class="body">
+        <h3><a href="https://github.com/lachlanchen/LazyEdit">LazyEdit</a><span class="stars" data-repo="lachlanchen/LazyEdit"></span></h3>
+        <p data-i18n="p.lazyedit"></p>
+        <div class="tags"><span class="tag">Whisper</span><span class="tag">Subtitles</span><span class="tag">Local-first</span></div>
+        <div class="cta"><a href="https://github.com/lachlanchen/LazyEdit" data-i18n="proj.repo">Repository</a></div>
+      </div>
+    </article>
+
+    <article class="card" data-cat="learning ai">
+      <a class="thumb" href="https://github.com/lachlanchen/L-and-N"><img src="assets/img/projects/l-and-n.jpg" alt="L-and-N pronunciation practice screen" loading="lazy"></a>
+      <div class="body">
+        <h3><a href="https://github.com/lachlanchen/L-and-N">L-and-N</a><span class="stars" data-repo="lachlanchen/L-and-N"></span></h3>
+        <p data-i18n="p.landn"></p>
+        <div class="tags"><span class="tag">PWA</span><span class="tag">iOS / Android / watchOS</span><span class="tag">Pronunciation</span></div>
+        <div class="cta"><a href="https://github.com/lachlanchen/L-and-N" data-i18n="proj.repo">Repository</a><a href="https://l-and-n.lazying.art" data-i18n="proj.live">Live</a></div>
+      </div>
+    </article>
+
+    <article class="card" data-cat="learning ai">
+      <a class="thumb" href="https://github.com/lachlanchen/LexiconAtlas"><img src="assets/img/projects/lexiconatlas.jpg" alt="LexiconAtlas 3D lexical graph" loading="lazy"></a>
+      <div class="body">
+        <h3><a href="https://github.com/lachlanchen/LexiconAtlas">LexiconAtlas</a><span class="stars" data-repo="lachlanchen/LexiconAtlas"></span></h3>
+        <p data-i18n="p.lexicon"></p>
+        <div class="tags"><span class="tag">3D graph</span><span class="tag">Etymology</span><span class="tag">JavaScript</span></div>
+        <div class="cta"><a href="https://github.com/lachlanchen/LexiconAtlas" data-i18n="proj.repo">Repository</a></div>
+      </div>
+    </article>
+
+    <article class="card" data-cat="media ai">
+      <a class="thumb" href="https://github.com/lachlanchen/Musia"><img src="assets/img/projects/musia.jpg" alt="Musia player with full-song localization" loading="lazy"></a>
+      <div class="body">
+        <h3><a href="https://github.com/lachlanchen/Musia">Musia</a><span class="stars" data-repo="lachlanchen/Musia"></span></h3>
+        <p data-i18n="p.musia"></p>
+        <div class="tags"><span class="tag">Demucs</span><span class="tag">Chords</span><span class="tag">Localization</span></div>
+        <div class="cta"><a href="https://github.com/lachlanchen/Musia" data-i18n="proj.repo">Repository</a><a href="https://fun.lazying.art" data-i18n="proj.live">Live</a></div>
+      </div>
+    </article>
+
+    <article class="card" data-cat="learning media">
+      <a class="thumb" href="https://github.com/lachlanchen/leonardsusskind"><img src="assets/img/projects/susskind.jpg" alt="Statistical Mechanics — The Theoretical Minimum, generated book cover" loading="lazy"></a>
+      <div class="body">
+        <h3><a href="https://github.com/lachlanchen/leonardsusskind">Susskind Lecture Archive</a><span class="stars" data-repo="lachlanchen/leonardsusskind">★ 32</span></h3>
+        <p data-i18n="p.susskind"></p>
+        <div class="tags"><span class="tag">Physics</span><span class="tag">TeX</span><span class="tag">Video2Book</span></div>
+        <div class="cta"><a href="https://github.com/lachlanchen/leonardsusskind" data-i18n="proj.repo">Repository</a><a href="https://learn.lazying.art" data-i18n="proj.live">Live</a></div>
+      </div>
+    </article>
+
+    <article class="card" data-cat="learning media">
+      <a class="thumb" href="https://github.com/lachlanchen/PocketPolyglot"><img src="assets/img/projects/pocketpolyglot.jpg" alt="Four editions of Kokoro compared side by side" loading="lazy"></a>
+      <div class="body">
+        <h3><a href="https://github.com/lachlanchen/PocketPolyglot">PocketPolyglot / LinguaLeaf</a><span class="stars" data-repo="lachlanchen/PocketPolyglot"></span></h3>
+        <p data-i18n="p.polyglot"></p>
+        <div class="tags"><span class="tag">Interlinear books</span><span class="tag">Chinese classics</span><span class="tag">PDF</span></div>
+        <div class="cta"><a href="https://github.com/lachlanchen/PocketPolyglot" data-i18n="proj.repo">Repository</a><a href="https://lachlanchen.github.io/LinguaLeaf/website" data-i18n="proj.live">Live</a></div>
+      </div>
+    </article>
+
+    <article class="card" data-cat="ai">
+      <a class="thumb" href="https://github.com/lachlanchen/PaperAgent"><img src="assets/img/projects/paperagent.jpg" alt="PaperAgent browser LaTeX workspace" loading="lazy"></a>
+      <div class="body">
+        <h3><a href="https://github.com/lachlanchen/PaperAgent">PaperAgent</a><span class="stars" data-repo="lachlanchen/PaperAgent"></span></h3>
+        <p data-i18n="p.paperagent"></p>
+        <div class="tags"><span class="tag">LaTeX</span><span class="tag">Python / R</span><span class="tag">Local-first</span></div>
+        <div class="cta"><a href="https://github.com/lachlanchen/PaperAgent" data-i18n="proj.repo">Repository</a><a href="https://paper.lazying.art" data-i18n="proj.live">Live</a></div>
+      </div>
+    </article>
+
+    <article class="card" data-cat="infra">
+      <a class="thumb" href="https://github.com/lachlanchen/LazyTunnel"><img src="assets/img/projects/lazyremote.jpg" alt="LazyRemote website" loading="lazy"></a>
+      <div class="body">
+        <h3><a href="https://github.com/lachlanchen/LazyTunnel">LazyRemote / LazyTunnel</a><span class="stars" data-repo="lachlanchen/LazyTunnel"></span></h3>
+        <p data-i18n="p.lazyremote"></p>
+        <div class="tags"><span class="tag">SSH</span><span class="tag">noVNC</span><span class="tag">Self-hosted</span></div>
+        <div class="cta"><a href="https://github.com/lachlanchen/LazyTunnel" data-i18n="proj.repo">Repository</a><a href="https://remote.lazying.art" data-i18n="proj.live">Live</a><a href="https://github.com/lachlanchen/uu-remote-ubuntu-bridge">UU bridge ★ 19</a></div>
+      </div>
+    </article>
+
+    <article class="card" data-cat="hardware ai">
+      <a class="thumb" href="https://github.com/lachlanchen/IdeasGlass"><img src="assets/img/projects/ideasglass.jpg" alt="IdeasGlass live dashboard beside the 3D-printed glasses" loading="lazy"></a>
+      <div class="body">
+        <h3><a href="https://github.com/lachlanchen/IdeasGlass">IdeasGlass</a><span class="stars" data-repo="lachlanchen/IdeasGlass"></span></h3>
+        <p data-i18n="p.ideasglass"></p>
+        <div class="tags"><span class="tag">ESP32</span><span class="tag">FastAPI</span><span class="tag">Wearable</span></div>
+        <div class="cta"><a href="https://github.com/lachlanchen/IdeasGlass" data-i18n="proj.repo">Repository</a><a href="https://glass.lazying.art" data-i18n="proj.live">Live</a></div>
+      </div>
+    </article>
+
+    <article class="card" data-cat="hardware ai">
+      <a class="thumb contain" href="https://lightmind.art"><img src="assets/img/projects/lightmind.jpg" alt="LightMind M1 wearable render" loading="lazy"></a>
+      <div class="body">
+        <h3><a href="https://lightmind.art">LightMind</a></h3>
+        <p data-i18n="p.lightmind"></p>
+        <div class="tags"><span class="tag">AI glasses</span><span class="tag">Neuromorphic</span><span class="tag">LightMind Tech</span></div>
+        <div class="cta"><a href="https://lightmind.art" data-i18n="proj.live">Live</a><a href="https://github.com/lachlanchen/lightmind-privacy">Privacy</a></div>
+      </div>
+    </article>
+
+    <article class="card" data-cat="imaging hardware">
+      <a class="thumb" href="https://github.com/lachlanchen/SyncImagingSystem"><img src="assets/img/projects/openhi-rig.jpg" alt="Synchronized event/frame imaging rig" loading="lazy"></a>
+      <div class="body">
+        <h3><a href="https://github.com/lachlanchen/SyncImagingSystem">SyncImagingSystem / nhi_hardware</a></h3>
+        <p data-i18n="p.sync"></p>
+        <div class="tags"><span class="tag">Hikrobot</span><span class="tag">EVK / DAVIS</span><span class="tag">CNC</span></div>
+        <div class="cta"><a href="https://github.com/lachlanchen/SyncImagingSystem" data-i18n="proj.repo">Repository</a><a href="https://github.com/lachlanchen/nhi_hardware">nhi_hardware</a></div>
+      </div>
+    </article>
+
+    <article class="card" data-cat="media ai infra">
+      <a class="thumb" href="https://github.com/lachlanchen/LocalVideoGen"><img src="assets/img/projects/localvideogen.jpg" alt="LocalVideoGen H3 Studio" loading="lazy"></a>
+      <div class="body">
+        <h3><a href="https://github.com/lachlanchen/LocalVideoGen">LocalVideoGen</a><span class="stars" data-repo="lachlanchen/LocalVideoGen"></span></h3>
+        <p data-i18n="p.localvideogen"></p>
+        <div class="tags"><span class="tag">Video generation</span><span class="tag">RTX 4090</span><span class="tag">MIT</span></div>
+        <div class="cta"><a href="https://github.com/lachlanchen/LocalVideoGen" data-i18n="proj.repo">Repository</a></div>
+      </div>
+    </article>
+
+    <article class="card" data-cat="ai">
+      <a class="thumb contain" href="https://github.com/lachlanchen/AgInTi"><img src="assets/img/projects/aginti.jpg" alt="AgInTi logo" loading="lazy"></a>
+      <div class="body">
+        <h3><a href="https://github.com/lachlanchen/AgInTi">AgInTi</a><span class="stars" data-repo="lachlanchen/AgInTi-LabCanvas"></span></h3>
+        <p data-i18n="p.aginti"></p>
+        <div class="tags"><span class="tag">Agents</span><span class="tag">CAD</span><span class="tag">Automation</span></div>
+        <div class="cta"><a href="https://github.com/lachlanchen/AgInTi" data-i18n="proj.repo">Repository</a><a href="https://github.com/lachlanchen/AgInTi-LabCanvas">LabCanvas</a></div>
+      </div>
+    </article>
+
+    <article class="card" data-cat="media infra">
+      <a class="thumb" href="https://github.com/lachlanchen/AutoPublish"><img src="assets/img/projects/autopublish.jpg" alt="AutoPublish multi-platform publishing" loading="lazy"></a>
+      <div class="body">
+        <h3><a href="https://github.com/lachlanchen/AutoPublish">AutoPublish</a><span class="stars" data-repo="lachlanchen/AutoPublish"></span></h3>
+        <p data-i18n="p.autopublish"></p>
+        <div class="tags"><span class="tag">Selenium</span><span class="tag">Tornado</span><span class="tag">Short video</span></div>
+        <div class="cta"><a href="https://github.com/lachlanchen/AutoPublish" data-i18n="proj.repo">Repository</a></div>
+      </div>
+    </article>
+
+    <article class="card" data-cat="infra">
+      <a class="thumb" href="https://github.com/lachlanchen/MicroQuant"><img src="assets/img/projects/microquant.jpg" alt="MicroQuant dashboard" loading="lazy"></a>
+      <div class="body">
+        <h3><a href="https://github.com/lachlanchen/MicroQuant">MicroQuant</a><span class="stars" data-repo="lachlanchen/MicroQuant"></span></h3>
+        <p data-i18n="p.microquant"></p>
+        <div class="tags"><span class="tag">MetaTrader 5</span><span class="tag">PostgreSQL</span><span class="tag">STL</span></div>
+        <div class="cta"><a href="https://github.com/lachlanchen/MicroQuant" data-i18n="proj.repo">Repository</a></div>
+      </div>
+    </article>
+
+    <article class="card" data-cat="media learning">
+      <a class="thumb" href="https://github.com/lachlanchen/LazyTravel"><img src="assets/img/projects/lazytravel.jpg" alt="Hakone shrine forest approach, from LazyTravel" loading="lazy"></a>
+      <div class="body">
+        <h3><a href="https://github.com/lachlanchen/LazyTravel">LazyTravel</a><span class="stars" data-repo="lachlanchen/LazyTravel"></span></h3>
+        <p data-i18n="p.lazytravel"></p>
+        <div class="tags"><span class="tag">ZH / JA / EN</span><span class="tag">Pocket books</span></div>
+        <div class="cta"><a href="https://github.com/lachlanchen/LazyTravel" data-i18n="proj.repo">Repository</a><a href="https://lachlanchen.github.io/LazyTravel/" data-i18n="proj.live">Live</a></div>
+      </div>
+    </article>
+
+  </div>
+
+  <p class="muted" style="margin-top:28px;font-size:14.5px">More on <a href="https://github.com/lachlanchen?tab=repositories">github.com/lachlanchen</a> (125+ public repositories) and <a href="https://lazying.art">lazying.art</a>.</p>
+</main>
+
+<footer>
+  <div class="foot-inner">
+    <span data-i18n="foot.copy">© 2026 Lachlan Chen. Hosted on GitHub Pages.</span>
+    <span><a href="https://github.com/lachlanchen/lachlanchen.github.io" data-i18n="foot.source">Source</a> · <a href="cv/Lachlan_Chen_CV_en.pdf" data-i18n="foot.cv">CV (PDF)</a> · <a href="mailto:lach@lazying.art">lach@lazying.art</a></span>
+  </div>
+</footer>
+</body>
+</html>
