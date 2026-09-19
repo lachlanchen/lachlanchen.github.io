@@ -17,7 +17,7 @@ Personal site and CV of **Lachlan (Rongzhou) Chen**: PhD candidate in neuromorph
 | [Projects](https://lachlan.lazying.art/projects.html) | Open-source tools and hardware with demo images |
 | [CV](https://lachlan.lazying.art/cv.html) | Web CV plus one-page PDFs in [English](cv/Lachlan_Chen_CV_en.pdf) and [中文](cv/Lachlan_Chen_CV_zh.pdf) |
 
-The site is plain HTML/CSS/JS, no build step. The EN / 中文 switch in the top bar is client-side (`assets/js/site.js`); publications and patents stay in English in both languages. The `i18n/` folder carries the multilingual profile READMEs so the language header above resolves.
+The site is plain HTML/CSS/JS, no build step. The language menu in the top bar switches between the same eleven languages as this header (English, 简体中文, 繁體中文, 日本語, 한국어, Tiếng Việt, العربية, Español, Français, Deutsch, Русский); translations live in `assets/i18n/*.json` and are applied client-side by `assets/js/site.js`. Publications and patents stay in English in every language. Add `?lang=ja` (or any code) to a URL to link to a specific language. The `i18n/` folder carries the multilingual profile READMEs so the language header above resolves.
 
 [![LazyingArt](https://img.shields.io/badge/Website-lazying.art-111827?style=for-the-badge&logo=googlechrome&logoColor=white)](https://lazying.art)
 [![OnlyIdeas](https://img.shields.io/badge/Website-onlyideas.art-1f2937?style=for-the-badge&logo=googlechrome&logoColor=white)](https://onlyideas.art)
@@ -43,7 +43,7 @@ The site is plain HTML/CSS/JS, no build step. The EN / 中文 switch in the top 
 
 ## Editing
 
-- Text for both languages lives in `assets/js/site.js` (`I18N.en`, `I18N.zh`); page structure in the four `.html` files.
+- Text for each language lives in `assets/i18n/<code>.json` (English is the fallback); page structure in the four `.html` files.
 - The PDFs in `cv/` are built from `ProjectsLFS/CV/LazyingArt_VisionProfile_2026/` with XeLaTeX (`python3 make_zh.py && xelatex …`, twice).
 - `CNAME` pins the custom domain `lachlan.lazying.art`; `.nojekyll` serves the files as-is.
 

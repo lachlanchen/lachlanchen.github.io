@@ -205,3 +205,13 @@ footer { border-top: 1px solid var(--line); background: var(--bg-soft); }
   .pdf-frame { height: 640px; }
   .news li { grid-template-columns: 1fr; gap: 0; }
 }
+
+/* ---------- right-to-left (Arabic) ---------- */
+[dir="rtl"] .nav-links { margin-left: 0; margin-right: auto; }
+[dir="rtl"] .nav-toggle { margin-left: 0; margin-right: auto; }
+[dir="rtl"] .section > h2 .more { margin-left: 0; margin-right: auto; }
+[dir="rtl"] .card .thumb img { object-position: top; }
+[dir="rtl"] .pub .abbr, [dir="rtl"] .tl .when, [dir="rtl"] .news .date { text-align: right; }
+[dir="rtl"] .skills ul, [dir="rtl"] .patents { padding-left: 0; padding-right: 18px; }
+[dir="rtl"] .dots span { margin-left: 0; margin-right: 3px; }
+.lang-select { max-width: 150px; }
