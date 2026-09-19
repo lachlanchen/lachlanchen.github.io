@@ -8,14 +8,14 @@
 
 Personal site and CV of **Lachlan (Rongzhou) Chen**: PhD candidate in neuromorphic imaging at the University of Hong Kong, Creator & CEO of **LazyingArt LLC**, Cofounder & COO of **LightMind Tech Ltd**.
 
-**Live:** <https://lachlanchen.lazying.art> (GitHub Pages, custom domain; also <https://lachlanchen.github.io>)
+**Live:** <https://lachlan.lazying.art> (GitHub Pages, custom domain; also <https://lachlanchen.github.io>)
 
 | Page | What is there |
 | --- | --- |
-| [About](https://lachlanchen.lazying.art/) | Bio, focus, highlights, companies, support |
-| [Publications](https://lachlanchen.lazying.art/publications.html) | Papers by year, preprints, patents |
-| [Projects](https://lachlanchen.lazying.art/projects.html) | Open-source tools and hardware with demo images |
-| [CV](https://lachlanchen.lazying.art/cv.html) | Web CV plus one-page PDFs in [English](cv/Lachlan_Chen_CV_en.pdf) and [中文](cv/Lachlan_Chen_CV_zh.pdf) |
+| [About](https://lachlan.lazying.art/) | Bio, focus, highlights, companies, support |
+| [Publications](https://lachlan.lazying.art/publications.html) | Papers by year, preprints, patents |
+| [Projects](https://lachlan.lazying.art/projects.html) | Open-source tools and hardware with demo images |
+| [CV](https://lachlan.lazying.art/cv.html) | Web CV plus one-page PDFs in [English](cv/Lachlan_Chen_CV_en.pdf) and [中文](cv/Lachlan_Chen_CV_zh.pdf) |
 
 The site is plain HTML/CSS/JS, no build step. The EN / 中文 switch in the top bar is client-side (`assets/js/site.js`); publications and patents stay in English in both languages. The `i18n/` folder carries the multilingual profile READMEs so the language header above resolves.
 
@@ -45,7 +45,7 @@ The site is plain HTML/CSS/JS, no build step. The EN / 中文 switch in the top 
 
 - Text for both languages lives in `assets/js/site.js` (`I18N.en`, `I18N.zh`); page structure in the four `.html` files.
 - The PDFs in `cv/` are built from `ProjectsLFS/CV/LazyingArt_VisionProfile_2026/` with XeLaTeX (`python3 make_zh.py && xelatex …`, twice).
-- `CNAME` pins the custom domain `lachlanchen.lazying.art`; `.nojekyll` serves the files as-is.
+- `CNAME` pins the custom domain `lachlan.lazying.art`; `.nojekyll` serves the files as-is.
 
 ## Contact
 
