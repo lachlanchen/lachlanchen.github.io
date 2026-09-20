@@ -63,7 +63,7 @@
  "cv.general": "Thông tin chung",
  "cv.name": "Họ tên", "cv.name_v": "Lachlan Chen (陈荣周（苗）, Rongzhou Chen)",
  "cv.location": "Nơi ở", "cv.location_v": "Hồng Kông",
- "cv.email": "Email", "cv.phone": "Điện thoại", "cv.web": "Web",
+ "cv.email": "Email", "cv.phone": "Điện thoại", "cv.phone_hint": "đã ẩn · hỏi qua email", "cv.web": "Web",
  "cv.languages": "Ngôn ngữ",
  "cv.l_zh": "Tiếng Trung", "cv.l_en": "Tiếng Anh", "cv.l_yue": "Tiếng Quảng Đông", "cv.l_ja": "Tiếng Nhật", "cv.l_vi": "Tiếng Việt",
  "cv.experience": "Kinh nghiệm",

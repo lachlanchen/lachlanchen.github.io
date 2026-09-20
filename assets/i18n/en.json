@@ -81,7 +81,7 @@
  "cv.location": "Location",
  "cv.location_v": "Hong Kong SAR",
  "cv.email": "Email",
- "cv.phone": "Phone",
+ "cv.phone": "Phone", "cv.phone_hint": "hidden · ask by email",
  "cv.web": "Web",
  "cv.languages": "Languages",
  "cv.l_zh": "Chinese",

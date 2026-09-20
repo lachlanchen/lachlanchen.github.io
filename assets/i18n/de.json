@@ -63,7 +63,7 @@
  "cv.general": "Allgemeine Angaben",
  "cv.name": "Vollständiger Name", "cv.name_v": "Lachlan Chen (陈荣周（苗）, Rongzhou Chen)",
  "cv.location": "Ort", "cv.location_v": "Hongkong",
- "cv.email": "E-Mail", "cv.phone": "Telefon", "cv.web": "Web",
+ "cv.email": "E-Mail", "cv.phone": "Telefon", "cv.phone_hint": "verborgen · per E-Mail erfragen", "cv.web": "Web",
  "cv.languages": "Sprachen",
  "cv.l_zh": "Chinesisch", "cv.l_en": "Englisch", "cv.l_yue": "Kantonesisch", "cv.l_ja": "Japanisch", "cv.l_vi": "Vietnamesisch",
  "cv.experience": "Berufserfahrung",

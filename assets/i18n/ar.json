@@ -63,7 +63,7 @@
  "cv.general": "معلومات عامة",
  "cv.name": "الاسم الكامل", "cv.name_v": "Lachlan Chen (陈荣周（苗）, Rongzhou Chen)",
  "cv.location": "الموقع", "cv.location_v": "هونغ كونغ",
- "cv.email": "البريد الإلكتروني", "cv.phone": "الهاتف", "cv.web": "الويب",
+ "cv.email": "البريد الإلكتروني", "cv.phone": "الهاتف", "cv.phone_hint": "مخفي · اطلبه عبر البريد", "cv.web": "الويب",
  "cv.languages": "اللغات",
  "cv.l_zh": "الصينية", "cv.l_en": "الإنجليزية", "cv.l_yue": "الكانتونية", "cv.l_ja": "اليابانية", "cv.l_vi": "الفيتنامية",
  "cv.experience": "الخبرة",

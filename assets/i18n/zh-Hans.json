@@ -81,7 +81,7 @@
  "cv.location": "所在地",
  "cv.location_v": "中国香港",
  "cv.email": "邮箱",
- "cv.phone": "电话",
+ "cv.phone": "电话", "cv.phone_hint": "已隐藏 · 请邮件索取",
  "cv.web": "网站",
  "cv.languages": "语言",
  "cv.l_zh": "中文",

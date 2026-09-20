@@ -63,7 +63,7 @@
  "cv.general": "基本情報",
  "cv.name": "氏名", "cv.name_v": "Lachlan Chen（陈荣周（苗）、Rongzhou Chen）",
  "cv.location": "所在地", "cv.location_v": "香港",
- "cv.email": "メール", "cv.phone": "電話", "cv.web": "ウェブ",
+ "cv.email": "メール", "cv.phone": "電話", "cv.phone_hint": "非公開 · メールでお問い合わせ", "cv.web": "ウェブ",
  "cv.languages": "言語",
  "cv.l_zh": "中国語", "cv.l_en": "英語", "cv.l_yue": "広東語", "cv.l_ja": "日本語", "cv.l_vi": "ベトナム語",
  "cv.experience": "経歴",

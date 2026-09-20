@@ -63,7 +63,7 @@
  "cv.general": "Общие сведения",
  "cv.name": "Полное имя", "cv.name_v": "Lachlan Chen (陈荣周（苗）, Rongzhou Chen)",
  "cv.location": "Местоположение", "cv.location_v": "Гонконг",
- "cv.email": "Эл. почта", "cv.phone": "Телефон", "cv.web": "Сайт",
+ "cv.email": "Эл. почта", "cv.phone": "Телефон", "cv.phone_hint": "скрыт · запросите по почте", "cv.web": "Сайт",
  "cv.languages": "Языки",
  "cv.l_zh": "Китайский", "cv.l_en": "Английский", "cv.l_yue": "Кантонский", "cv.l_ja": "Японский", "cv.l_vi": "Вьетнамский",
  "cv.experience": "Опыт работы",

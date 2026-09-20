@@ -63,7 +63,7 @@
  "cv.general": "基本資訊",
  "cv.name": "姓名", "cv.name_v": "陳榮周（苗） Lachlan Chen (Rongzhou Chen)",
  "cv.location": "所在地", "cv.location_v": "香港",
- "cv.email": "電郵", "cv.phone": "電話", "cv.web": "網站",
+ "cv.email": "電郵", "cv.phone": "電話", "cv.phone_hint": "已隱藏 · 請電郵索取", "cv.web": "網站",
  "cv.languages": "語言",
  "cv.l_zh": "中文", "cv.l_en": "英語", "cv.l_yue": "粵語", "cv.l_ja": "日語", "cv.l_vi": "越南語",
  "cv.experience": "工作經歷",

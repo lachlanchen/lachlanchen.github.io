@@ -63,7 +63,7 @@
  "cv.general": "기본 정보",
  "cv.name": "이름", "cv.name_v": "Lachlan Chen (陈荣周（苗）, Rongzhou Chen)",
  "cv.location": "거주지", "cv.location_v": "홍콩",
- "cv.email": "이메일", "cv.phone": "전화", "cv.web": "웹",
+ "cv.email": "이메일", "cv.phone": "전화", "cv.phone_hint": "비공개 · 이메일로 문의", "cv.web": "웹",
  "cv.languages": "언어",
  "cv.l_zh": "중국어", "cv.l_en": "영어", "cv.l_yue": "광둥어", "cv.l_ja": "일본어", "cv.l_vi": "베트남어",
  "cv.experience": "경력",
