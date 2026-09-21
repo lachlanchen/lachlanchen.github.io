@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lachlan.lazying.art/sitemap.xml
